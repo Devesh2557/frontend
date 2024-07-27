@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            }
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            color: white;
+            padding: 10px 0px;
+        }
+        .mid ul{
+            display: flex;
+        }
+        .mid ul li{
+            list-style: none;
+            margin: 10px;
+            font-size: 23px;
+        }
+        .right button{
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: yellow;
+            font-weight: bold;
+        }
+        .mid ul li:hover{
+            color: yellow;
+            cursor: pointer;
+        }
+        .left h1{
+            color: yellow;
+        }
+        .bar{
+            display: none;
+            font-size: 25px;
+            color: yellow;
+        }
+        img{
+            width: 100%;
+        }
+        main{
+            background: url('image.avif');
+            background-size: cover;
+            height: 80vh;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            padding-left: 150px;
+        }
+        .content button{
+            width: 13%;
+            padding: 15px 20px;
+            background-color: yellow;
+            border: none;
+        }
+        p,h1,button{
+            margin: 10px 0px;
+            font-weight: bold;
+        }
+        .text{
+            color: yellow;
+        } 
+        .product-section{
+            width: 70%;
+            margin: auto;
+            margin-top: 2rem;
+        }
+        .upper{
+            display: flex;
+            }
+        .upper div{    
+            border: 2px solid #eff2f3;
+            width: 300px;
+            margin: 5px;
+            text-align: center;
+            padding: 20px;
+        }
+        .upper div i,p{
+            margin: 10px 0px;
+        }    
+        .upper i{
+            font-size: 30px;
+        }
+            
+        @media (max-width:724px){
+            .mid,.right{
+            display: none;
+            }
+        .bar{
+            display: block;
+        }
+            
+    }
+   
+    .lower h1{
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid #eff2f3;
+    }
+    .lower p{
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .features{
+        display: flex;
+    }
+    .sneaker{
+        border: 2px solid black;
+        width: 300px;
+        height: 350px;
+        margin-left: 200px;
+    }
+    .one{
+        width: 100%;
+        height: 70%;
+        background-color: black;
+    }
+    .two{
+        width: 100%;
+        height: 20%;
+        background-color: blue;
+    }
+    .three{
+        width: 100%;
+        height: 10%;
+        background-color: yellow;
+    }
+    .beg{
+        border: 2px solid black;
+        width: 300px;
+        height: 350px;
+        margin-left: 20px; 
+    }
+    .four{
+        width:100%;
+        height: 70%;
+        background-color:black; 
+    }
+    .five{
+        width: 100%;
+        height: 20%;
+        background-color: blue;
+    }
+    .six{
+        width: 100%;
+        height: 10%;
+        background-color: yellow;
+    }
+    .watch{
+        border: 2px solid black;
+        width: 300px;
+        height: 350px;
+        margin-left: 20px;
+    }
+    .seven{
+        width:100%;
+        height: 70%;
+        background-color:black;
+    }
+    .eight{
+        width:100%;
+        height: 20%;
+        background-color:blue;
+    }
+    .nine{
+        width:100%;
+        height: 10%;
+        background-color:yellow;
+    }
+    body{
+        background-color: yellow;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <h1>Logo</h1>
+        </div>
+        <div class="mid">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Product</li>
+                <li>Contact us</li>
+            </ul>
+            
+        </div>
+        <div class="right">
+            <button>Login</button>
+            <button>Signup</button>
+        </div>
+        <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+        <p>MEN COLLECTION</p>
+        <h1><span class="text">Show</span> Your <br> Personal <span class="text">Style</span></span></h1>
+        <p>Fowl saw dry which a above together place.</p>
+        <button>VIEW COLLECTION</button>
+        </div>
+    </main>
+        
+    <div class="product-section">
+        <div class="upper">
+            <div>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <p>MONEY BACK GURANTEE</p>
+                <p>Shall open divide a one</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-truck"></i>
+                <p>FREE DELIVERY</p>
+                <p>Shall open divide a one</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-headphones"></i>
+                <p>ALWAY SUPPORT</p>
+                <p>Shall open divide a one</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-money-bill-1"></i>
+                <p>SECURE PAYMENT</p>
+                <p>Shall open divide a one</p>
+            </div>
+        </div>
+    </div><br><br><br><br>
+
+
+    <div class="next">
+        <div class="lower">
+            <h1>Featured Products</h1><br>
+            <p>Bring called seed first of third give itself now ment</p>
+        </div>
+    </div>
+
+
+    <div class="features">
+        <div class="sneaker">
+            <div class="one">
+
+            </div>
+            <div class="two">
+
+            </div>
+            <div class="three">
+
+            </div>
+        </div>
+
+
+        <div class="beg">
+            <div class="four">
+
+            </div>
+            <div class="five">
+
+            </div>
+            <div class="six">
+
+            </div>
+        </div>
+
+
+        <div class="watch">
+            <div class="seven">
+
+            </div>
+            <div class="eight">
+
+            </div>
+            <div class="nine">
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
