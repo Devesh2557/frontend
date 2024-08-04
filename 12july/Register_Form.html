@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register_Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .box{
+            border: 2px solid black;
+            width: 30%;
+            padding: 15px;
+            border: 2px solid white;
+            border-radius: 8px;
+            display: flex;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        h1{
+            text-align: center;
+            border-bottom: 1px solid rgb(4, 171, 4);
+        }
+        input{
+            width: 100%;
+            padding: 10px 8px;
+            margin: 8px 0px;
+            border: 1px solid rgb(4, 171, 4);
+            border-left: 0px;
+            border-radius: 8px;
+        }
+        .submit{
+            border: 2px solid black;
+            text-align: center;
+            padding: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(4, 171, 4);
+            border-radius: 8px;  
+        }
+        #btn{
+            font-size: 20px;            
+            background-color: rgb(4, 171, 4);
+            color: white;
+        }
+        h1{
+            color: rgb(4, 171, 4);
+            font-family: sans-serif;
+            font-size: 30px;
+            padding: 8px;
+        }
+        i{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Signup</h1>
+            <form action="">
+                <label for="">Username</label>
+                <div class="username">
+                    <div class="icon">
+                        <i class="fa-solid fa-user"></i>        
+                    </div>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <label for="">Email</label>
+                <div class="email">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                <label for="">mobile number</label>
+                <div class="number">
+                    <div class="icon">
+                        <i class="fa-regular fa-phone"></i>
+                    </div>
+                    <input type="number" placeholder="Enter your number">
+                </div>
+                <label for="">password</label>
+                <div class="password">
+                    <div class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+                <div class="submit">
+                    <h1 id="btn">Submit</h1>
+                </div>
+            </form> 
+        </div>
+    </div>
+</body>
+</html>
